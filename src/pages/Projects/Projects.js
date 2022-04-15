@@ -93,7 +93,7 @@ class Projects extends Component {
 
       </a>
 
-      <a href="#this" target="_blank" rel="noreferrer">
+      <a href="https://github.com/jjliewie/portfolio" target="_blank" rel="noreferrer">
 
       <Card className="project-card">
         {/* <Card.Header>Header</Card.Header> */}
