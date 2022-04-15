@@ -1,0 +1,103 @@
+.hvr-sweep-to-top {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #3a3b3c;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+    color: #FAF9F6;
+  }
+  .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+
+
+/* trytry */
+
+.bm-burger-button {
+    position: absolute;
+    top: 65px;
+    right: 10%;
+    width: 36px;
+    height: 30px;
+}
+
+@media screen and (min-width: 600px){
+
+    .bm-burger-button{
+        display: none;
+    }
+    
+}
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #3a3b3c;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #656565;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #D3D3D3;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .bm-menu-wrap {
+    position: absolute;
+    height: 100%;
+
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #3a3b3c;
+    padding: 2.5em 1.5em 0;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #FAF9F6;
+    overflow: hidden;
+    padding: 0.8em;
+  }
