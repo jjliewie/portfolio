@@ -237,6 +237,7 @@ br{
     font-size: calc(max(2.5vw, 4vh));
     text-align: center;
     font-weight: 900;
+    color: #3a3b3c;
 }
 
 .pt {
