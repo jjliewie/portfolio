@@ -22,7 +22,6 @@ html
   max-width: 60vw;
   color: #3a3b3c;
   font-weight: 900;
-
 }
 
 .home h1 span {
@@ -365,6 +364,18 @@ color:#3a3b3c;
     font-style: normal;
 }
 
-/* .publications .publication-card {
-    
-} */
+/* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
+
+.resume {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #FAF9F6;
+}
+
+.resume h1 {
+    font-size: calc(max(7vw, 6vh));
+    max-width: 85vw;
+    color: #3a3b3c;
+    font-weight: 900;
+  }

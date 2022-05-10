@@ -23,10 +23,8 @@ export const NavLink = styled(Link)`
 
 export const NavLogo = styled(Link)`
 
-    font-size: 50px;
     color: #3a3b3c;
     position: absolute;
-    // margin-left: 10%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
@@ -55,11 +53,11 @@ export const NavMenu = styled.div`
     align-items: center;
     place-content: center;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         margin-right: 7%;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 900px) {
         display: none;
     }
 

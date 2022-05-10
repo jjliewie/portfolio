@@ -11,9 +11,6 @@ import {
   } from './NavbarElements';
 
 import {HamLink} from './HamburgerElements';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFishFins } from '@fortawesome/free-solid-svg-icons';
 import face from './face.png'
 
 import { slide as Burger } from 'react-burger-menu';
@@ -25,7 +22,7 @@ const NavBar = () => {
         <Nav>
 
         <NavLogo to = "/">
-        <img src={face} width="80" height="80"/>
+        <img src={face} className='face'/>
         {/* <FontAwesomeIcon icon={faFishFins} /> */}
         </NavLogo>
 
@@ -41,6 +38,10 @@ const NavBar = () => {
 
         <NavLink to = "/publications" className='hvr-sweep-to-top'>
             PUBLICATIONS
+        </NavLink>
+
+        <NavLink to = "/resume" className='hvr-sweep-to-top'>
+            RESUME
         </NavLink>
 
         </NavMenu>
@@ -63,6 +64,10 @@ const NavBar = () => {
 
         <HamLink to = "/publications" className='hvr'>
             PUBLICATIONS
+        </HamLink>
+
+        <HamLink to = "/resume" className='hvr'>
+            RESUME
         </HamLink>
 
         </Burger>

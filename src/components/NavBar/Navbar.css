@@ -52,7 +52,7 @@
     height: 30px;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 
     .bm-burger-button{
         display: none;
@@ -101,3 +101,17 @@
     overflow: hidden;
     padding: 0.8em;
   }
+
+  .face {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media screen and (max-width: 900px){
+
+    .face{
+      width: 65px;
+      height: 65px;
+    }
+    
+}
