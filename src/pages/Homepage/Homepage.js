@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../../styles/style.css';
+import Footer from '../../components/Footer'
 
 class Homepage extends Component {
   render () {
@@ -16,6 +17,8 @@ class Homepage extends Component {
         doesn't mean I'm good at it..
       </h2>
 
+      <Footer/>
+      
       </div>
       
       </section>

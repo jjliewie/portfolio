@@ -3,11 +3,17 @@
 html
 {
   font-size: 100%;
-  
 }
 
 * {
     font-family: 'Red Hat Display', sans-serif;
+}
+
+#page-container {
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    padding-bottom: 60px;
 }
 
 .main {
@@ -38,7 +44,7 @@ html
 
 .home h2 {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     right: 15%;
     font-size: 20px;
     color: #656565;
@@ -77,7 +83,7 @@ html
 }
 
 .about p{
-    font-size: calc(max(max(1.5vw, 2.8vh), 20px));
+    font-size: calc(max(max(1.35vw, 2.65vh), 19px));
     max-width: 40vw;
     color: #656565;
 }
@@ -102,6 +108,15 @@ html
     font-size: x-small;
     color:#656565;
     max-width: 40vw;
+}
+
+.about a{
+   text-decoration: none; 
+   color: #656565;
+}
+
+.about a:hover{
+    color: #3a3b3c;
 }
 
 @media screen and (max-width: 1000px){
@@ -139,7 +154,8 @@ br{
 /* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
 
 .projects{
-    margin-top: calc(60px + calc(max(9vw, 13vh)));
+    /* margin-top: calc(60px + calc(max(9vw, 13vh))); */
+    margin-top: calc(120px + calc(max(6vw, 8vh)));
     color: #3a3b3c;
     text-align: center;
     display: grid;
@@ -229,6 +245,7 @@ br{
 /* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
 
 .publications{
+    margin-top: calc(120px + calc(max(6vw, 8vh)));
     background-color: #FAF9F6;
 }
 
@@ -290,6 +307,10 @@ br{
 .publications a {
     background-color: #3a3b3c;
     border: transparent;
+}
+
+.publications .footer a{
+    background-color: transparent;
 }
 
 .publications .publication-card {

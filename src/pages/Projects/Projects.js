@@ -3,9 +3,12 @@ import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/style.css';
 
+import Footer from '../../components/Footer'
+
 class Projects extends Component {
   render () {
     return (
+      <div id="page-container">
       <section id="projects">
 
       <div className="projects">
@@ -63,15 +66,15 @@ class Projects extends Component {
 
       </a>
 
-      <a href="https://github.com/jjliewie/job_test" target="_blank" rel="noreferrer">
+      <a href="https://github.com/jjliewie/ilp-student-allocation" target="_blank" rel="noreferrer">
 
       <Card className="project-card">
         {/* <Card.Header>Header</Card.Header> */}
         <Card.Body>
-          <Card.Title className="card-title">Personality-Job</Card.Title>
+          <Card.Title className="card-title">ILP Allocation</Card.Title>
           <Card.Text>
-            Recommends occupation based on personality.
-            Made with Python Flask.
+            Student to Site allocation with 
+            Integer Linear Programming.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -113,8 +116,11 @@ class Projects extends Component {
       <br/>
 
       </div>
+
+      <Footer/>
       
       </section>
+      </div>
     )
   }
 }

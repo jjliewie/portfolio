@@ -1,0 +1,25 @@
+.footer a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    color: #3a3b3c;
+}
+
+.footer a:hover{
+    color: #3a3b3c;
+    opacity: 0.8;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer p {
+    font-size: min(calc(0.8vw + 11px), 20px);
+    position: relative;
+}

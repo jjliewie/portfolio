@@ -7,25 +7,27 @@ import Slide from '../../components/Slide'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import Footer from '../../components/Footer'
 
 class Publications extends Component {
   render () {
     return (
-      <section className="publications">
+        <section className="publications">
         
-      <div className="pt">
+        <div className="pt">
+  
+        <h1>
+          <span>Publications</span>
+        </h1>
+  
+        <div className="slider">
+        <Slide/>
+        </div>
+  
+        </div>
 
-      <h1>
-        <span>Publications</span>
-      </h1>
-
-      <div className="slider">
-      <Slide/>
-      </div>
-
-      </div>
-      
-      </section>
+        <Footer/>
+        </section>
     )
   }
 }
