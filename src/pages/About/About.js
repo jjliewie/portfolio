@@ -40,7 +40,7 @@ class About extends Component {
 
             <br/>
 
-            Hi! I’m Juheon, and I’m a seventeen-year-old student who likes coding. ^^<br/> 
+            Hi! I’m Juheon, and I’m a seventeen year old student who likes coding. ^^<br/> 
             I’m currently interested in IOS development, and recently published my first app! <br/> 
 
             I’m also working on an autoencoder based representation learning for deepfake detection and on another app for finding insurance covered oriental hospitals in South Korea!
@@ -48,7 +48,7 @@ class About extends Component {
             I like competitive programming and I’m a USACO gold division competitor. 
             I'm also the co-eic at Woolgathering! Check it out <a href="https://www.wgmag.org">here</a>!
 
-            </p>
+            </p> 
 
             </section>
             

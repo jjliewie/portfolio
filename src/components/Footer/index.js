@@ -13,7 +13,7 @@ const Footer = () => {
         <Foot>
         <div className='footer'>
         <p>© Juheon Rhee. All Rights Reserved.</p>
-        <a href="https://www.github.com/jjliewie"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href="https://www.github.com/jjliewie" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
         </div>
         </Foot>
     );

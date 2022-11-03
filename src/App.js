@@ -17,7 +17,6 @@ import { Publications } from './pages/Publications';
 import { Resume } from './pages/Resume';
 import { About } from './pages/About';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
           <Route path="/publications" element={<Publications/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
-        {/* <Footer/> */}
       </HashRouter>
   );
 }

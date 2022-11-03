@@ -46,6 +46,32 @@ export default function Slide() {
       // excerpt: 'n/a'
     },
     {
+      title: 'Immaculate',
+      journal: 'Grim & Gilded',
+      link: 'https://www.grimandgilded.com/juheon-rhee',
+      type: 'Poetry', 
+      excerpt: 'Because your child is born, your mother congratulates you...'
+    },
+    {
+      title: 'when stream slithered down the hill like a dirge',
+      journal: 'That Which Remains',
+      link: 'https://www.twrjournal.com/poetry-juheon-rhee',
+      type: 'Poetry', 
+      excerpt: 'it sang to us: trickle, trickle, little star, on a starless night...'
+    }, 
+    {
+      title: 'Fifth Grade Anatomy',
+      journal: 'Bird Bath Magazine',
+      link: 'https://birdbathmagazine.com/issue1',
+      type: 'Poetry (Print)'
+    },
+    {
+      title: 'The Case of the Drowned Haenyeo',
+      journal: 'Bird Bath Magazine',
+      link: 'https://birdbathmagazine.com/issue1',
+      type: 'Poetry (Print)'
+    },
+    {
       title: 'dear hwang-og',
       journal: '580 Split',
       link: 'https://580split.org/issue/message-undeliverable/#dearhwangog038dearkitty',
@@ -172,13 +198,6 @@ export default function Slide() {
       excerpt: 'My next door neighbor cries / on the balcony today...'
     },
     {
-      title: 'Immaculate',
-      journal: 'Grim & Gilded',
-      link: 'https://www.grimandgilded.com/juheon-rhee',
-      type: 'Poetry', 
-      excerpt: 'Because your child is born, your mother congratulates you...'
-    },
-    {
       title: 'The moon that used to follow me in the car',
       journal: 'Noctua Review',
       link: 'https://issuu.com/noctuareview/docs/noctuareview2021',
@@ -205,25 +224,6 @@ export default function Slide() {
       type: 'Poetry', 
       excerpt: 'woman over there in the white veil in the colossal detainment of house...'
     }, 
-    {
-      title: 'when stream slithered down the hill like a dirge',
-      journal: 'That Which Remains',
-      link: 'https://www.twrjournal.com/poetry-juheon-rhee',
-      type: 'Poetry', 
-      excerpt: 'it sang to us: trickle, trickle, little star, on a starless night...'
-    }, 
-    {
-      title: 'Fifth Grade Anatomy',
-      journal: 'Bird Bath Magazine',
-      link: 'https://birdbathmagazine.com/issue1',
-      type: 'Poetry (Print)'
-    },
-    {
-      title: 'The Case of the Drowned Haenyeo',
-      journal: 'Bird Bath Magazine',
-      link: 'https://birdbathmagazine.com/issue1',
-      type: 'Poetry (Print)'
-    },
     {
       title: 'Fruit Flies',
       journal: 'The Heritage Review',
@@ -261,7 +261,7 @@ export default function Slide() {
     },
     {
       title: 'open our eyes',
-      journal: 'The Heritage Review',
+      journal: 'Bow Seat Ocean Awareness Contest',
       link: 'https://bowseat.org/gallery/open-our-eyes/',
       type: 'Poetry (Award Winner)', 
       excerpt: '...no longer the roots of the sea but a delicate / souvenir...'
