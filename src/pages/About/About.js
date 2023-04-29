@@ -43,7 +43,7 @@ class About extends Component {
             Hi! I’m Juheon, and I’m a seventeen year old student. ^^<br/> 
             I’m interested in machine learning and I’m currently working on an autoencoder based representation learning for deepfake detection!
             <br/> 
-            I like competitive programming and I teach USACO silver and bronze at <a href="https://joincpi.org/">CPI</a>. 
+            I like competitive programming and I taught USACO silver and bronze at <a href="https://joincpi.org/">CPI</a>. 
             <br/>
             I also like math & writing poetry. 
             I'm the co-eic & founder at Woolgathering! Check it out <a href="https://www.wgmag.org">here</a>!

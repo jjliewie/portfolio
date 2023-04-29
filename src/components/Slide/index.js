@@ -39,6 +39,20 @@ export default function Slide() {
 
   const literaryCards = [
     {
+      title: 'Donna',
+      journal: 'BreakBread Magazine',
+      link: 'https://d1fdloi71mui9q.cloudfront.net/gUUQiwZiQumedaHUyD1O_BreakBreadIssue5_DigitalDownload.pdf',
+      type: 'Creative Nonfiction', 
+      // excerpt: 'n/a'
+    },
+    {
+      title: 'The optimal age to commit arson',
+      journal: 'Salem State University Soundings East',
+      link: 'https://www.salemstate.edu/campus-life/arts/creative-writing/soundings-east',
+      type: 'Creative Nonfiction', 
+      // excerpt: 'n/a'
+    },
+    {
       title: 'Verifying Factors Affecting Covid-19 Cases and Deaths',
       journal: 'International Journal of Current Research',
       link: 'https://www.journalcra.com/sites/default/files/issue-pdf/40630_0.pdf',
