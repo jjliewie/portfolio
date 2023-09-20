@@ -46,6 +46,13 @@ export default function Slide() {
       // excerpt: 'n/a'
     },
     {
+      title: 'If There Were a Time Machine',
+      journal: 'The Rappahannock Review',
+      link: 'https://rappahannockreview.com/issue-10-2/contents/nonfiction/juheon-rhee/',
+      type: 'Creative Nonfiction', 
+      // excerpt: 'n/a'
+    },
+    {
       title: 'The optimal age to commit arson',
       journal: 'Salem State University Soundings East',
       link: 'https://www.salemstate.edu/campus-life/arts/creative-writing/soundings-east',
@@ -58,6 +65,13 @@ export default function Slide() {
       link: 'https://www.journalcra.com/sites/default/files/issue-pdf/40630_0.pdf',
       type: 'Research Paper', 
       // excerpt: 'n/a'
+    },
+    {
+      title: 'Poetry',
+      journal: 'Litterae Mag',
+      link: 'https://www.litteraemag.com/poetry/poetry',
+      type: 'Poetry', 
+      excerpt: 'The poets will tell my story a dream, in pieces...'
     },
     {
       title: 'Immaculate',

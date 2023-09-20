@@ -10,7 +10,7 @@ class Homepage extends Component {
       <div className="main">
 
       <h1>
-        <span>Hi! I'm Juheon and I do stuff.</span>
+        <span>Hi! I've done some stuff.</span>
       </h1>
 
       <h2>
