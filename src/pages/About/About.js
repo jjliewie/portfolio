@@ -28,7 +28,7 @@ class About extends Component {
             <Typewriter
 
             options={{
-                strings: ["I'm a software developer.", "I write poems.", "I do math.", "I read.","I'm a competitive programmer.", "I'm just trying my best."],
+                strings: ["I write poems.", "I do math. (sometimes)", "I read.", "I want to cry."],
                 autoStart: true,
                 loop: true,
             }}
@@ -40,13 +40,12 @@ class About extends Component {
 
             <br/>
 
-            Hi! I’m Juheon, and I’m a seventeen year old student. ^^<br/> 
-            I’m interested in machine learning and I’m currently working on an autoencoder based representation learning for deepfake detection!
+            Hi. I'm 18 now.<br/> 
+            I'm into pure mathematics right now. 
             <br/> 
-            I like competitive programming and I taught USACO silver and bronze at <a href="https://joincpi.org/">CPI</a>. 
+            I also do some writing. 
             <br/>
-            I also like math & writing poetry. 
-            I'm the co-eic & founder at Woolgathering! Check it out <a href="https://www.wgmag.org">here</a>!
+            I've done some stuff but now I don't have passion for anything.
             </p> 
 
             </section>
