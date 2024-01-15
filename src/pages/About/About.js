@@ -45,7 +45,7 @@ class About extends Component {
             <br/> 
             I also do some writing. 
             <br/>
-            I've done some stuff but now I don't have passion for anything.
+            *･゜ﾟ･*:.｡..｡.:*･'(*ﾟ▽ﾟ*)'･*:.｡. .｡.:*･゜ﾟ･*
             </p> 
 
             </section>

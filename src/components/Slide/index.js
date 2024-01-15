@@ -60,6 +60,13 @@ export default function Slide() {
       // excerpt: 'n/a'
     },
     {
+      title: 'Love',
+      journal: 'Untenured',
+      link: 'https://static1.squarespace.com/static/611d3926c87218044b5a134b/t/657cc5fb2d664a236c537942/1702675966741/UNTENURED+2.3.pdf',
+      type: 'Creative Nonfiction', 
+      // excerpt: 'n/a'
+    },
+    {
       title: 'Verifying Factors Affecting Covid-19 Cases and Deaths',
       journal: 'International Journal of Current Research',
       link: 'https://www.journalcra.com/sites/default/files/issue-pdf/40630_0.pdf',
@@ -87,6 +94,13 @@ export default function Slide() {
       type: 'Poetry', 
       excerpt: 'it sang to us: trickle, trickle, little star, on a starless night...'
     }, 
+    {
+      title: 'Love',
+      journal: 'Untenured',
+      link: 'https://static1.squarespace.com/static/611d3926c87218044b5a134b/t/657cc5fb2d664a236c537942/1702675966741/UNTENURED+2.3.pdf',
+      type: 'Creative Nonfiction', 
+      // excerpt: 'n/a'
+    },
     {
       title: 'Fifth Grade Anatomy',
       journal: 'Bird Bath Magazine',
