@@ -44,7 +44,7 @@ class About extends Component {
             I like math, reading, competitive programming & climbing!
 
             <br/> 
-            I also do some writing. 
+            I also write.
             <br/>
             *･゜ﾟ･*:.｡..｡.:*･'(*ﾟ▽ﾟ*)'･*:.｡. .｡.:*･゜ﾟ･*
             </p> 
