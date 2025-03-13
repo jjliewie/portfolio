@@ -28,7 +28,7 @@ class About extends Component {
             <Typewriter
 
             options={{
-                strings: ["I write poems.", "I do math. (sometimes)", "I read.", "I want to cry."],
+                strings: ["I write poems.", "I do math. (sometimes)", "I read.", "I climb!"],
                 autoStart: true,
                 loop: true,
             }}
@@ -40,8 +40,9 @@ class About extends Component {
 
             <br/>
 
-            Hi. I'm 18 now.<br/> 
-            I'm into pure mathematics right now. 
+            Hi. I'm 19 now.<br/> 
+            I like math, reading, competitive programming & climbing!
+
             <br/> 
             I also do some writing. 
             <br/>
